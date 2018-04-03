@@ -15,7 +15,6 @@ namespace std {
 } // namespace std
 
 int main() {
-
     point p1 = {0, 0};
     point p2 = {1, 1};
     std::cout << std::distance(p1, p2) << std::endl;            // Ok, seems right.

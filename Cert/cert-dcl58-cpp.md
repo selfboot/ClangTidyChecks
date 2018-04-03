@@ -1,4 +1,4 @@
-# cert-dcl58-cpp
+完整的代码参考 [../Src/cert-dcl58-cpp](cert-dcl58-cpp.cpp)
 
 ```c++
 #include <cmath>
@@ -18,7 +18,6 @@ namespace std {
 } // namespace std
 
 int main() {
-
     point p1 = {0, 0};
     point p2 = {1, 1};
     std::cout << std::distance(p1, p2) << std::endl;            // Ok, seems right.
@@ -33,7 +32,6 @@ int main() {
         }
     }
 }
-// https://stackoverflow.com/questions/2712076/how-to-use-an-iterator/2712125#2712125
 ```
 
 > **C++ Standard**: **Do not** add declarations or definitions to the standard namespaces std or posix, or to a namespace contained therein, except for a template specialization that depends on a user-defined type that meets the standard library requirements for the original template.

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(ClangTidySrc)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 99)
 
 add_executable(demo test.cpp)
 add_executable(test_2 test_2.cpp)
@@ -31,3 +31,12 @@ add_executable(cert-err52-cpp cert-err52-cpp.cpp)
 add_executable(cert_err52_cpp_compliant cert_err52_cpp_compliant.cpp)
 add_executable(cert-err58-cpp cert-err58-cpp.cpp)
 add_executable(cert-err58-cpp_compliant cert-err58-cpp_compliant.cpp)
+add_executable(cert-err60-cpp cert-err60-cpp.cpp)
+
+add_executable(cert-err09-cpp cert-err09-cpp.cpp)
+
+add_executable(cert-err34-c cert-err34-c.cpp)
+
+add_executable(cert-err34-c_compliant cert-err34-c_compliant.cpp)
+
+add_executable(cert-env33-c cert-env33-c.cpp)
